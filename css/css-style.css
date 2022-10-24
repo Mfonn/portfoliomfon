@@ -7,8 +7,7 @@
 
 body{
     font-family: "Open Sans", sans-serif;
-    background: #F6F6F6;
-
+    background-image: linear-gradient(to right, #86377b 20%, #ba55d3 80%);
 
 }
 
@@ -85,6 +84,16 @@ nav ul li a{
   z-index: 2;
   cursor: pointer;
 
+}
+
+.github {
+  width: 4%;
+  margin-top: 4%;
+}
+
+.resume {
+  width: 50%;
+  height: 50%;
 }
 
 .intro{
@@ -291,7 +300,6 @@ nav ul li a{
 .copy-right{
   color: #bbbbbb;
 }
-
 
 
 
