@@ -340,6 +340,9 @@ nav ul li a{
   color: #bbbbbb;
 }
 
+.w3-main, .w3-content, .w3-padding, .right {
+  margin-top: 100px;
+}
 
 
 
@@ -408,7 +411,22 @@ nav ul li a{
 
     }
 
+    .github {
+      width: 12%;
+    }
 
+    .resume {
+      width: 17%;
+      margin-top: -29%;
+    }
+
+    .w3-main, .w3-content, .w3-padding, .right {
+      margin-top: -35px;
+    }
+
+    .open {
+      display: none;
+    }
 
 }
 
