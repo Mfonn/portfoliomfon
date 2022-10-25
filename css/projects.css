@@ -1,0 +1,17 @@
+@media screen and (min-width: 900px) {
+    .w3-row-padding, .w3-padding-16, .w3-center {
+        display: flex;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        margin-top: 10%;
+        font-size: 33px;
+        text-align: center;
+    }
+    
+}

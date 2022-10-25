@@ -428,6 +428,9 @@ nav ul li a{
       display: none;
     }
 
+    .w3-quarter {
+      margin-bottom: 20%;
+    }
 }
 
 

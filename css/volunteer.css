@@ -2,10 +2,15 @@ body {
     background-color: #F0A1F7 !important;
 }
 
+
 @media screen and (min-width: 900px){
     .w3-quarter {
       width: 45% !important;
       margin-right: 1%;
     }
+        .w3-row-padding, .w3-padding-16, .w3-center {
+            display: flex;
+        }
+
     
   }
