@@ -1,0 +1,11 @@
+body {
+    background-color: #F0A1F7 !important;
+}
+
+@media screen and (min-width: 900px){
+    .w3-quarter {
+      width: 45% !important;
+      margin-right: 1%;
+    }
+    
+  }

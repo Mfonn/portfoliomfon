@@ -41,6 +41,19 @@ a:hover{
   color: #000;
 }
 
+
+
+.logo2{
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: -6%;
+}
+
+#logo2 a{
+  color: #000;
+}
+
+
 #sidebar{
   width: 100%;
   height: 100vh;
@@ -92,8 +105,7 @@ nav ul li a{
 }
 
 .resume {
-  width: 50%;
-  height: 50%;
+  width: 7%;
 }
 
 .intro{
@@ -137,9 +149,36 @@ nav ul li a{
   width: 48.8%;
 }
 
+
+.volunteer {
+ margin-right: 0%;
+}
+
+.main-box {
+  box-shadow: 0px 3px 5px 3px #3a2442;
+  padding: 3%;
+}
+
+.open {
+  top: -46% !important;
+  font-size: 16px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(58, 52, 42, 0);
+  text-transform: uppercase;
+  transition: background-color 0.35s;
+  color: #E4F0F1;
+}
+
 .right .box{
   position: relative;
-  background:  #7F81FF;
 }
 
 .right .box img{
@@ -165,7 +204,7 @@ nav ul li a{
   background-color: rgba(58, 52, 42, 0);
   text-transform: uppercase;
   transition: background-color 0.35s;
-  color: #fff;
+  color: #E4F0F1;
 
 }
 .right .box:hover .inner{
@@ -306,6 +345,15 @@ nav ul li a{
 
 
 /*=============================== Responsive ===========================*/
+
+
+@media screen and (min-width: 900px){
+  .w3-quarter {
+    width: 23% !important;
+    margin-right: 2%;
+  }
+  
+}
 
 
 

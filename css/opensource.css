@@ -1,0 +1,54 @@
+body {
+    color: #231627;
+}
+
+.header {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 48px;
+}
+
+.baby_header {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 48px;
+}
+
+.skills {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 27px;
+}
+
+ul {
+    margin-left: 5%;
+}
+
+li {
+    margin-bottom: 1%;
+}
+
+.w3-quarter {
+    margin: 5%;
+}
+
+.words {
+    margin-bottom: 2%;
+}
+
+.setup {
+    font-size: 20px;
+    margin: 4%;
+}
+
+
+
+@media screen and (min-width: 900px){
+    .w3-quarter {
+      width: 30% !important;
+      margin-right: 1%;
+    }
+    
+  }
+  
