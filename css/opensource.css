@@ -1,3 +1,5 @@
+
+
 body {
     color: #231627;
 }
@@ -42,12 +44,43 @@ li {
     margin: 4%;
 }
 
+.w3-quarter {
+    width: 30% !important;
+    margin-right: 1%;
+  }
 
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 900px) {
+    .w3-row-padding, .w3-padding-16, .w3-center {
+        display: flex;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 900px){
     .w3-quarter {
-      width: 30% !important;
+      width: 96% !important;
       margin-right: 1%;
+      margin-bottom: 20%;
+    }
+
+    * {
+        margin: 5%;
+    }
+
+    .header {
+        margin-top: 17%;
+        font-size: 28px;
+    }
+
+    .baby_header {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 11px;
     }
     
   }
