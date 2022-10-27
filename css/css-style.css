@@ -104,8 +104,25 @@ nav ul li a{
   margin-top: 4.5%;
 }
 
+.github:hover {
+  width: 40px;
+}
+
 .resume {
-  width: 7%;
+  width: 5%;
+}
+
+.resume:hover {
+  width: 50px;
+}
+
+.about {
+  border-radius: 5%;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4%;
+  font-size: 1.5rem;
+
 }
 
 .intro{
@@ -341,7 +358,7 @@ nav ul li a{
 }
 
 .w3-main, .w3-content, .w3-padding, .right {
-  margin-top: 100px;
+  margin-top: 1%;
 }
 
 
@@ -416,8 +433,8 @@ nav ul li a{
     }
 
     .resume {
-      width: 17%;
-      margin-top: -29%;
+      width: 8%;
+      margin-top: -18%;
     }
 
     .w3-main, .w3-content, .w3-padding, .right {

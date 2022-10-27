@@ -1,7 +1,9 @@
 
 
 body {
-    color: #231627;
+    color: #141010;
+    background-color: #680747;
+    background-image: none;
 }
 
 .header {
@@ -33,6 +35,16 @@ li {
 
 .w3-quarter {
     margin: 5%;
+}
+
+.w3-quarter, .box, .main-box {
+    border-radius: 5%;
+    background-color: #86377b;
+    color: #231627;
+}
+
+.main-box:hover {
+    opacity: 1;
 }
 
 .words {
