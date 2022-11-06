@@ -14,7 +14,6 @@ body{
 
 /*================================ Global ================================*/
 
-
 a {
   text-decoration: none;
   outline: none;
@@ -371,6 +370,11 @@ nav ul li a{
     width: 23% !important;
     margin-right: 2%;
   }
+
+ .newone {
+  display: flex;
+
+} 
   
 }
 
